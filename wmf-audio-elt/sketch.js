@@ -42,7 +42,7 @@ function draw(){
     line( drop.x, drop.y, drop.x, drop.y + 30 )
   }
   
-  if(rainSound1.currentTime >= 9.8){
+  if(rainSound1.currentTime >= 9){
     rainSound1.currentTime = 0;
   }
   
